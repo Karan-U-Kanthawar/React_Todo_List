@@ -1,4 +1,4 @@
-import { Button, Container, TextField } from '@material-ui/core';
+import { Container } from '@material-ui/core';
 import React, { Component } from 'react';
 import { AllTodos } from './AllTodos';
 import { TodoForm } from './TodoForm';
@@ -35,13 +35,6 @@ export class TodoList extends Component {
         return todo.id !== id;
       }),
     }));
-  };
-  numberOfCompletedTodos = () => {
-    let count = 0;
-    this.state.todos.forEach((todo) => {
-      if (todo.complete) count += 1;
-    });
-    return count;
   };
 
   render() {
