@@ -1,8 +1,16 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding-top: 0;
+  box-sizing: border-box;
+}
+
 .App {
+  padding-top: 3rem;
   min-height: 100vh;
-  background-color: #282c34;
+  background-color: #1a2e53;
   color: white;
   text-align: center;
-  /* color: white; */
   overflow: hidden;
 }

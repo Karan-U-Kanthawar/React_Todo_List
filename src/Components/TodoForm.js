@@ -40,7 +40,7 @@ export class TodoForm extends Component {
       <div>
         <form onSubmit={this.handleSubmit}>
           <TextField
-            style={{ backgroundColor: 'white' }}
+            style={{ backgroundColor: 'white', borderRadius: '5px' }}
             name="text"
             label="Add Todo"
             variant="filled"
