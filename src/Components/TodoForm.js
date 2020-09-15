@@ -25,12 +25,9 @@ export class TodoForm extends Component {
           text: this.state.text,
           complete: false,
         },
-        this.setState(
-          {
-            text: '',
-          },
-          console.log(this.state)
-        )
+        this.setState({
+          text: '',
+        })
       );
     }
   };
